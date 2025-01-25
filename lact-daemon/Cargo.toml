@@ -31,7 +31,7 @@ futures = { workspace = true }
 indexmap = { workspace = true }
 divan = { workspace = true, optional = true }
 
-copes = { git = "https://github.com/juiveli/testailuacddd" , branch = "main"}
+copes = { git = "https://github.com/juiveli/testailua" , branch = "master"}
 nvml-wrapper = { git = "https://github.com/ilya-zlobintsev/nvml-wrapper", branch = "lact" }
 bitflags = "2.6.0"
 pciid-parser = { version = "0.7", features = ["serde"] }
