@@ -31,6 +31,7 @@ futures = { workspace = true }
 indexmap = { workspace = true }
 divan = { workspace = true, optional = true }
 
+copes = { git = "https://github.com/juiveli/testailua" , branch = "main"}
 nvml-wrapper = { git = "https://github.com/ilya-zlobintsev/nvml-wrapper", branch = "lact" }
 bitflags = "2.6.0"
 pciid-parser = { version = "0.7", features = ["serde"] }
@@ -44,7 +45,6 @@ tar = "0.4.40"
 libflate = "2.0.0"
 os-release = "0.1.0"
 notify = { version = "6.1.1", default-features = false }
-copes = { git = "https://github.com/juiveli/testailua" , branch = "main"}
 libloading = "0.8.6"
 
 [dev-dependencies]
